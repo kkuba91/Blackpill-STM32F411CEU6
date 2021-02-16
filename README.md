@@ -31,5 +31,6 @@ STM32, STM32Cube, STM32CubeIDE - ST Microelectronics company (C)
 
 ## References
 [1] USB CDC Port init problem: https://community.st.com/s/question/0D50X00009XkfnjSAB/problem-solved-with-usb-cdc
+
 [2] USB VCOM Tutorial (polish): https://forbot.pl/blog/kurs-stm32-f4-11-komunikacja-przez-usb-id13477
 
