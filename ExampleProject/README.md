@@ -22,7 +22,7 @@ For start example created only 3 start tasks with Normal Priority:
 After installing STM Virtual COM Port Driver, is is able to connect to the device by USB-C connector (check Device Manager in Control Panel if COM port installed properly).
 Ex. use RealTerm tool for data send/receive as ansi stream:
 
-![alt text](https://github.com/kkuba91/Blackpill-STM32F411CEU6/blob/main/realterm.png?raw=true)
+![alt text](https://github.com/kkuba91/Blackpill-STM32F411CEU6/blob/main/ExampleProject/realterm.png?raw=true)
 
 Used commands in example are: `info`, `help`, `blink slow`, `blink fast`, `blink normal`
 
