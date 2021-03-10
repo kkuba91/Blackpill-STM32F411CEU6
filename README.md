@@ -3,6 +3,7 @@ Here are located some first of my project/repo files strictly connected with Bla
 
 Project builds and the rest of files prepared in STM32CubeIDE 1.3.
 
+
 #### Start Project - "ExampleProject" [#LINK#](https://github.com/kkuba91/Blackpill-STM32F411CEU6/tree/main/ExampleProject)
 Used here: FREERTOS, USB_OTG, button
 
