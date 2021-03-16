@@ -18,8 +18,8 @@ Same as in "ExampleProject" (tasks: `ButtonTask`, `LedTask`, `USBTask`) + W5500 
 All tasks run in the same priority without any data synchronization method.
 
 ## TCP SERVER
-To check, how wiznet chip works as TCP server, there is written own loopback methon inside `SpiStartTask`. 
-Especially connection abort procedure inside is impostant. The procedure shown in snippet below:
+To check, how wiznet chip works as TCP server, there is written own loopback method inside `SpiStartTask`. 
+Especially, a connection abort procedure inside - it is impostant. The procedure shown in snippet below:
 
  ```c
 ...
@@ -44,13 +44,13 @@ getSn = getSn_SR(SockNr);
 	  }
 ...
 ```
-The rest of the TCP server part is common for all manuals.
+The rest of the TCP server part is common for all other manuals from Wiznet.
 
 ## MODBUS TCP CLIENT (DEMO - F3)
-For tests there are prepared small library located inside `uMB.h` and `uMB.c`. 
-It uses fast Modbus request construction and response preparation for external request message.
+For tests there is prepared a small library located inside `uMB.h` and `uMB.c`. 
+It uses fast Modbus request construction and response preparation for external request message. Asks for holding registers (F3) and responds. 
 
-For use just define `request` and `response` structures. To have all interfaces even for Modbus Slave functionality, define both.
+For use just define `request` and `response` structures. To make a test with function 3, both interfaces must be defined and used.
 
 Example of use (with data from TCP/IP stock - W5500) below:
  ```c
@@ -71,7 +71,7 @@ if ( (rec_len = getSn_RX_RSR(SockNr) ) > 0){
 ...
 ```
 
-Check with the program ModbusPoll:
+Checked with the program ModbusPoll:
 
 ![alt text](https://github.com/kkuba91/Blackpill-STM32F411CEU6/blob/main/W5500_ModbusF3/uMBworks.png?raw=true)
 
