@@ -19,7 +19,7 @@ All tasks run in the same priority without any data synchronization method.
 
 ## TCP SERVER
 To check, how wiznet chip works as TCP server, there is written own loopback method inside `SpiStartTask`. 
-Especially, a connection abort procedure inside - it is impostant. The procedure shown in snippet below:
+Especially, a connection abort procedure inside - it is important. The procedure shown in snippet below:
 
  ```c
 ...
